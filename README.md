@@ -1,5 +1,6 @@
 📄 README per Aplikacionin JavaFX - Animimi i Imazhit
-📌 Pershkrim:
+
+##📌 Pershkrim:
 Ky aplikacion ne JavaFX krijon nje dritare interaktive qe shfaq nje imazh dhe mundeson manipulimin e tij permes animimeve dhe nderveprimeve te ndryshme me perdoruesin. Imazhi mund te rrotullohet, zbehet dhe te levizet ne kater drejtime duke perdorur butona specifike. Aplikacioni perdor event handlers dhe animacione tranzicioni per te krijuar nje eksperience vizuale dinamike dhe ndervepruese.
 
 🚀 Qellimi i Aplikacionit:
