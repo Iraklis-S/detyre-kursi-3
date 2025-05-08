@@ -1,21 +1,31 @@
-📄 README per Aplikacionin JavaFX - Animimi i Imazhit
+#  README për Aplikacionin JavaFX - Animimi i Imazhit
 
-##📌 Pershkrim:
-Ky aplikacion ne JavaFX krijon nje dritare interaktive qe shfaq nje imazh dhe mundeson manipulimin e tij permes animimeve dhe nderveprimeve te ndryshme me perdoruesin. Imazhi mund te rrotullohet, zbehet dhe te levizet ne kater drejtime duke perdorur butona specifike. Aplikacioni perdor event handlers dhe animacione tranzicioni per te krijuar nje eksperience vizuale dinamike dhe ndervepruese.
+##  Përshkrim:
+Ky aplikacion në JavaFX krijon një dritare interaktive që shfaq një imazh dhe mundëson manipulimin e tij përmes animimeve dhe ndërveprimeve të ndryshme me përdoruesin. Imazhi mund të rrotullohet, zbehet dhe të lëvizet në katër drejtime duke përdorur butona specifikë. Aplikacioni përdor **event handlers** dhe **animacione tranzicioni** për të krijuar një eksperiencë vizuale dinamike dhe ndërvepruese.
 
-🚀 Qellimi i Aplikacionit:
-Ky aplikacion eshte krijuar per te demonstruar perdorimin e JavaFX ne krijimin e animimeve te imazheve dhe nderveprimeve me mouse. Ai ofron nje shembull praktik te perdorimit te RotateTransition, FadeTransition dhe TranslateTransition, si dhe te trajtimit te ngjarjeve (EventHandler) per manipulimin e objekteve grafike.
+---
 
-⚙️ Karakteristikat Kryesore:
-Animimi i Rrotullimit: Imazhi rrotullohet vazhdimisht kur mouse kalon mbi te.
+##  Qëllimi i Aplikacionit:
+Ky aplikacion është krijuar për të demonstruar përdorimin e **JavaFX** në krijimin e **animimeve të imazheve** dhe **ndërveprimeve me mouse**. Ai ofron një shembull praktik të përdorimit të **RotateTransition**, **FadeTransition** dhe **TranslateTransition**, si dhe të trajtimit të ngjarjeve (`EventHandler`) për manipulimin e objekteve grafike.
 
-Zbehja e Imazhit: Imazhi zbehet gradualisht dhe rikthehet kur mouse kalon mbi te.
+---
 
-Levizja e Imazhit: Perdoruesi mund te zhvendose imazhin majtas, djathtas, lart dhe poshte duke perdorur butona te dedikuar.
+## ⚙ Karakteristikat Kryesore:
+- **Animimi i Rrotullimit:** Imazhi rrotullohet vazhdimisht kur **mouse** kalon mbi të.
+- **Zbehja e Imazhit:** Imazhi zbehet gradualisht dhe rikthehet kur **mouse** kalon mbi të.
+- **Lëvizja e Imazhit:** Përdoruesi mund të zhvendosë imazhin **majtas**, **djathtas**, **lart** dhe **poshtë** duke përdorur butona të dedikuar.
+- **Ndërveprim Dinamik:** Kur **mouse** largohet nga imazhi, animacionet ndalojnë dhe imazhi mbetet në pozicionin aktual.
 
-Nderveprim Dinamik: Kur mouse largohet nga imazhi, animacionet ndalojne dhe imazhi mbetet ne pozicionin aktual.
+---
 
-💻 Kerkesat e Sistemit:
-Java JDK 17+
+##  Kërkesat e Sistemit:
+- Java JDK 17+
+- JavaFX SDK 17+
 
-JavaFX SDK 17+
+---
+
+##  Udhëzime për Ekzekutimin:
+
+### 1. Kompilimi:
+```bash
+javac --module-path "C:\path\to\Java\javafx-sdk-x.x.x\lib" --add-modules javafx.controls,javafx.fxml -d bin src\Animimet.java
