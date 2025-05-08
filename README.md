@@ -1,18 +1,20 @@
-## Getting Started
+📄 README per Aplikacionin JavaFX - Animimi i Imazhit
+📌 Pershkrim:
+Ky aplikacion ne JavaFX krijon nje dritare interaktive qe shfaq nje imazh dhe mundeson manipulimin e tij permes animimeve dhe nderveprimeve te ndryshme me perdoruesin. Imazhi mund te rrotullohet, zbehet dhe te levizet ne kater drejtime duke perdorur butona specifike. Aplikacioni perdor event handlers dhe animacione tranzicioni per te krijuar nje eksperience vizuale dinamike dhe ndervepruese.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+🚀 Qellimi i Aplikacionit:
+Ky aplikacion eshte krijuar per te demonstruar perdorimin e JavaFX ne krijimin e animimeve te imazheve dhe nderveprimeve me mouse. Ai ofron nje shembull praktik te perdorimit te RotateTransition, FadeTransition dhe TranslateTransition, si dhe te trajtimit te ngjarjeve (EventHandler) per manipulimin e objekteve grafike.
 
-## Folder Structure
+⚙️ Karakteristikat Kryesore:
+Animimi i Rrotullimit: Imazhi rrotullohet vazhdimisht kur mouse kalon mbi te.
 
-The workspace contains two folders by default, where:
+Zbehja e Imazhit: Imazhi zbehet gradualisht dhe rikthehet kur mouse kalon mbi te.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Levizja e Imazhit: Perdoruesi mund te zhvendose imazhin majtas, djathtas, lart dhe poshte duke perdorur butona te dedikuar.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Nderveprim Dinamik: Kur mouse largohet nga imazhi, animacionet ndalojne dhe imazhi mbetet ne pozicionin aktual.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+💻 Kerkesat e Sistemit:
+Java JDK 17+
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+JavaFX SDK 17+
